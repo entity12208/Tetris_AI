@@ -145,6 +145,7 @@ python tetris_play_genome.py --genome-file genomes/best.json --headless --games 
 * **Fitness** is a combination of heuristic evaluation and NES scoring (scaling via `--nes-weight`).
 
 ---
+
 ## 🧠 Levels of Intelligence
 
 The AI improves its play with every game it experiences. At first, it plays worse than a beginner, but it rapidly develops strategies and adapts. Over time, its skill level progresses through clear stages:
@@ -161,6 +162,7 @@ This progression shows how the AI evolves from random moves to mastery, and even
 
 
 ---
+
 ## ⚡ Tips to Improve Training Speed
 
 * Increase **population size** for more diversity.
@@ -168,6 +170,21 @@ This progression shows how the AI evolves from random moves to mastery, and even
 * Tune the **mutation rate** (higher = more exploration, lower = stability).
 * Use **elite retention** to keep top genomes each generation.
 * Train in **headless mode** to speed up iteration.
+
+---
+
+## 📊 Training Progress
+
+Our AI shows consistent improvement through evolutionary training:
+
+### Score Progression
+![Score Progression](graphs/score_progression.png)
+
+### Lines Cleared Performance
+![Lines Cleared](graphs/lines_cleared.png)
+
+### Genome Weight Evolution
+![Genome Evolution](graphs/genome_evolution.png)
 
 ---
 

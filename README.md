@@ -186,6 +186,9 @@ Our AI shows consistent improvement through evolutionary training:
 ### Genome Weight Evolution
 ![Genome Evolution](graphs/genome_evolution.png)
 
+### Games Played
+![Games Played](graphs/games_played.png)
+
 ---
 
 ## 🤝 Contributing

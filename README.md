@@ -145,7 +145,22 @@ python tetris_play_genome.py --genome-file genomes/best.json --headless --games 
 * **Fitness** is a combination of heuristic evaluation and NES scoring (scaling via `--nes-weight`).
 
 ---
+## 🧠 Levels of Intelligence
 
+The AI improves its play with every game it experiences. At first, it plays worse than a beginner, but it rapidly develops strategies and adapts. Over time, its skill level progresses through clear stages:
+
+|  Games Played |                   Intelligence Level                   |
+| :-----------: | :----------------------------------------------------: |
+|     0 – 10    |            **Level 0** (random, unfocused)             | 
+|    10 – 100   |       **Level 1** (basic survival skills)              |
+|  100 – 1,000  |     **Level 2** (strategic play, consistent clears)    |
+| 1,000 – 5,000 |    **Level 3** (optimized stacking, high efficiency)   |
+|     5,000+    | **Level 4** (increased foresight, near-perfect play)   |
+
+This progression shows how the AI evolves from random moves to mastery, and eventually surpasses human-level performance with enough training.
+
+
+---
 ## ⚡ Tips to Improve Training Speed
 
 * Increase **population size** for more diversity.

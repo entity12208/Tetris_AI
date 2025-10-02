@@ -40,6 +40,9 @@ pip install pygame
 
 ### 3. Train genomes
 
+> [!note]
+> If you would like to contribute or you would like to train models from scratch, delete the `genomes` directory. A fresh one with scratch data will be generated during training.
+
 ```bash
 python tetris.py
 ```

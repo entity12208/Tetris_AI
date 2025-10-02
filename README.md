@@ -1,5 +1,5 @@
 # Tetris AI — Genetic / Heuristic Player
-
+![Tetris_AI-100](Tetris_AI-100.png)
 This project trains and tests a **genetic / heuristic-based Tetris AI**. It contains two main scripts:
 
 * `tetris.py` — a trainer that evolves genomes (heuristic weight sets).
